@@ -28,7 +28,7 @@ namespace WishList
             }
             else
             {
-                app.UseExceptionHandler();
+                app.UseExceptionHandler("/home/error");
             }
 
             app.UseMvcWithDefaultRoute();
